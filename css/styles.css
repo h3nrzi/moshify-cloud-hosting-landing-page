@@ -986,3 +986,20 @@ a {
 .blockCallout {
   transform: translateY(10rem);
 }
+
+/* FAQ */
+
+.faq {
+  & .collapsible {
+    border-bottom: 1px solid var(--color-border);
+    padding: 2rem 0;
+  }
+
+  & .collapsible__header {
+    cursor: pointer;
+  }
+
+  & .collapsible__heading {
+    font-weight: 500;
+  }
+}
