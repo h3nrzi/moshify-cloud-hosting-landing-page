@@ -39,21 +39,34 @@
     </header>
 
     <main>
-      <section class="block block--dark block--skewedLeft hero">
+      <section class="block block--dark block--skewedLeft hero domain">
         <div class="container">
-          <header class="block__header hero__content" data-aos="zoom-in">
-            <h1 class="block__heading">Find Your Perfect Domain</h1>
-            <p class="hero__tagline">The first step to your online success starts here.</p>
-            <div class="inputGroup">
-              <input class="input" type="text" placeholder="Enter domain name here..." />
-              <button class="btn btn--accent">
-                <svg class="icon icon--white">
-                  <use xlink:href="images/sprite.svg#search" />
-                </svg>
-                Search
-              </button>
-            </div>
-          </header>
+          <div class="grid grid--1x2">
+            <header class="block__header hero__content" data-aos="zoom-in">
+              <h1 class="block__heading">Find Your Perfect Domain</h1>
+              <p class="hero__tagline">The first step to your online success starts here.</p>
+              <div class="inputGroup">
+                <input class="input" type="text" placeholder="Enter domain name here..." />
+                <button class="btn btn--accent">
+                  <svg class="icon icon--white">
+                    <use xlink:href="images/sprite.svg#search" />
+                  </svg>
+                  Search
+                </button>
+              </div>
+              <ul class="list domain__prices">
+                <li class="list__item">.com $9</li>
+                <li class="list__item">.net $12</li>
+                <li class="list__item">.org $10</li>
+                <li class="list__item">.io $35</li>
+              </ul>
+            </header>
+            <picture data-aos="zoom-in">
+              <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x" />
+              <source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x" />
+              <img class="hero__img" src="images/banner.png" alt="" />
+            </picture>
+          </div>
         </div>
       </section>
 

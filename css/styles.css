@@ -786,6 +786,7 @@ a {
     justify-items: center;
     font-size: 2rem;
     font-weight: 600;
+    color: #fff;
 
     & .list__item {
       margin-bottom: 2rem;
@@ -793,7 +794,7 @@ a {
   }
 
   & .inputGroup {
-    box-shadow: 0 0 30px 20px #e6ebee;
+    box-shadow: 0 0 10px 5px #e6ebee;
     border: 0;
     margin: 4rem 0;
   }
@@ -805,12 +806,12 @@ a {
       font-size: 1.5rem;
       grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0;
     }
 
     & .inputGroup {
       max-width: 650px;
-      margin: 4rem auto;
+      margin: 4rem 0;
     }
   }
 }
@@ -992,7 +993,7 @@ a {
 .faq {
   & .collapsible {
     border-bottom: 1px solid var(--color-border);
-    padding: 2rem 0;
+    padding: 3rem 0;
   }
 
   & .collapsible__header {
